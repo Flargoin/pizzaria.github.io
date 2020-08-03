@@ -748,7 +748,7 @@ padding: 2px 4px;
         z-index: -1;
     }
     .active{
-        padding: 10px 16px;
+        padding: 10px 15px;
     }
     .header__mobile-descr{
         display: block;
