@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0; 
 }
+/* * {
+    outline: 1px solid red;
+    } */
 
 a{
     text-decoration: none;
@@ -211,11 +214,14 @@ body{
     position: absolute;
     top: 12%;
     margin-left: 5%;
-    width: 400px;
+    width: 350px;
     border-radius: 3px;
     height: 3px;
     background-color: #d4101f;
     z-index: -1;
+}
+.steps li span:nth-child(3)::after{
+    width: 0;
 }
 .steps li:last-child span::after {
     background: #fafafa;
@@ -839,5 +845,16 @@ padding: 2px 4px;
         padding-top: 8px;
         padding-bottom: 8px;
         background-color: #303030;
+    }
+    .steps{
+        max-width: 290px    ;
+    }
+    .steps li span::after{
+        margin-left: 15%;
+        width: 85px;
+    }
+    .steps li:last-child span::after {
+        background: #fafafa;
+        width: 0;
     }
 }
