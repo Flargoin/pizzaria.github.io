@@ -414,10 +414,8 @@ body{
     left: 4px;
     z-index: 1;
 } 
-
 .radio__input:checked + .radio__label::after{
     opacity:1;
-
 }
  .order__city,
 .order__area{
@@ -740,6 +738,7 @@ padding: 2px 4px;
     }
     .cart__text{
         width: 160px;
+        margin-top: -15px;
     }
     .cart__item-title{
         font-size: 14px;
