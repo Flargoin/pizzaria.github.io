@@ -10,6 +10,7 @@
 </head>
 <body>
 
+<!-- ШАПКА -->
     <header class="header">
         <div class="container">
             <p class="header__mobile-descr">Среднее время доставки <span class="header__mobile-descr-value">56 минут</span> </p>
@@ -19,7 +20,7 @@
             </span>
 
             <div class="logo">
-                <img type="image/svg+xml" src="img/logo.svg.png" alt="" class="logo__icon">
+                <img src="img/logo.svg.png" alt="" class="logo__icon">
             </div>
 
             <div class="header__info">
@@ -64,6 +65,7 @@
             </div>
         </div>
 
+<!-- МЕНЮ ШАПКИ -->
         <div class="header__menu">
             <div class="header__inner">
             <nav class="header__nav">
@@ -89,6 +91,7 @@
         </div>
     </header>
 
+<!-- КОРЗИНА -->
     <main class="main">
         <div class="container">
             <section class="progress">
@@ -100,7 +103,7 @@
                     <li class="step"><span class="step__number">2</span>
                         <p class="step__name">Оформление заказа</p>
                     </li>
-                    <li class="step"><span class="step__number step__after">3</span>
+                    <li class="step"><span class="step__number">3</span>
                         <p class="step__name">Отправка</p>
                     </li>
                     
@@ -111,6 +114,7 @@
                 </div>
             </section>
 
+<!-- ТОВАРЫ -->
             <section class="cart__main">
                 <div class="cart__items">
                 <div class="cart__item">
@@ -198,6 +202,7 @@
             
             </div>
 
+<!-- СПОСОБ ДОСТАВКИ -->
             <div class="cart__order">
                 <h2 class="cart__order-title">
                     Способ доставки
@@ -207,20 +212,20 @@
         <form action="" class="cart__order-form">
 		<div class="order-type-wrapper">
 			<div class="radio">
-			  <label class="radio__label">
+			  
 				<input class="radio__input" type="radio" name="basket-orderType" id="courier-delivery" data-show-block="delivery-select-rest" value="0" tabindex="1">
-				Доставка курьером
-			  </label>
+				<label class="radio__label">Доставка курьером</label>
+			  
 			</div>
 			
 			  	
 			<div class="radio">
-				<label class="radio__label">
+				
 					<input class="radio__input" type="radio" name="basket-orderType" id="no-shipment" data-show-block="no-ship-select-rest" value="1">
-                        Самовывоз <br>
+                       <label class="radio__label"> Самовывоз <br>
                    <span class="radio__input-descr"> ( Скидка 10% пересчитывается при обратном 
-                            звонке оператора! )</span>
-				</label>
+                                                    звонке оператора! )</span>
+				       </label>
             </div>
             
             <p class="city__title">Ваш город</p>
@@ -242,8 +247,9 @@
                             <h4 class="order__promo">
                                 Промокод:
                             </h4>
-
+                             <div class="input">
                             <input type="text" class="order__promo-value">
+                        </div>
                             <p class="bonus__plus">Балы к зачислению: <span class="bonus__plus-value">0Б</span></p>    
                             <p class="bonus__minus">Балы к списанию: <span class="bonus__minus-value">0Б</span></p>
                             </div>
@@ -251,6 +257,7 @@
                             <h4 class="total">Итого: <span class="total-value">1280Р</span></h4>
                         </div>
 		<div class="item-cart-buttons">
+           
 			<input type="submit" class="bt_link block-right" id="orderDeny" value="Оформить заказ">
 			
 		</div>
@@ -261,6 +268,7 @@
         </div>
     </main>
 
+<!-- ПОДВАЛ -->
     <footer class="footer">
         <div class="container">
             <div class="footer__inner">
@@ -325,6 +333,7 @@
             </span>
         </div>
     </footer>
+    
     
 </body>
 </html>
