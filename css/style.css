@@ -419,7 +419,7 @@ body{
 .order__area{
     position: relative;
     margin: 0 auto;
-    background-color: #fff;
+    
 }
 .city__title,
 .area__title{
@@ -430,8 +430,8 @@ body{
 .order__city select,
 .order__area select{
     margin: 0 auto;
-    margin-bottom: 18px;
-
+    margin-bottom: 18px;    
+    background-color: #fff;
     width: 225px;
     padding-left: 15px;
     padding-top: 8px;
