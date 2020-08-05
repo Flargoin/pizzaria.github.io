@@ -29,6 +29,9 @@ body {
   display: flex;
   align-items: center;
 }
+.header__mobile__menu{
+    cursor: pointer;
+}
 .logo__icon {
   width: 100%;
   height: 100%;
@@ -58,12 +61,8 @@ body {
   border: 1px solid #c2c2c2;
   padding: 5px;
   border-radius: 50%;
-}
-.city__icon {
-  margin-right: -10px;
-}
-.phone__icon {
-  margin-right: -10px;
+  cursor: pointer;
+  margin-right: -25px;
 }
 .city__icon:before {
   content: "";
@@ -111,9 +110,6 @@ body {
   max-width: 130px;
   margin-right: 100px;
   cursor: pointer;
-}
-.cabinet__icon {
-  margin-right: -10px;
 }
 .button__cart {
   display: flex;
@@ -208,7 +204,7 @@ body {
   color: #fff;
   padding: 15px 22px;
 }
-.steps li span::after {
+ /* .steps li span::after {
   content: "";
   display: block;
   position: absolute;
@@ -219,10 +215,29 @@ body {
   height: 3px;
   background-color: #d4101f;
   z-index: -1;
-}
-.steps li span:nth-child(3)::after {
-  width: 0;
-}
+}  */
+.steps li:first-child span::after {
+    content: "";
+    display: block;
+    background-color: #d4101f;
+    width: 272px;
+    height: 3px;
+
+    position: absolute;
+    top: 12%;
+    margin-left: 65px;
+  }
+  .steps li:nth-child(2) span::after {
+    content: "";
+    display: block;
+    background-color: #d4101f;
+    width: 275px;
+    height: 3px;
+
+    position: absolute;
+    top: 12%;
+    margin-left: 115px;
+  }
 .steps li:last-child span::after {
   background: #fafafa;
 }
@@ -284,6 +299,7 @@ body {
   appearance: none;
   font-family: inherit;
   color: #000;
+  cursor: pointer;
 }
 .count {
   display: block;
@@ -300,7 +316,8 @@ body {
   background-image: url(../img/arrow.png);
   width: 15px;
   height: 9px;
-  z-index: -1;
+  z-index: 2;
+
 }
 .price {
   font-size: 16px;
@@ -348,6 +365,7 @@ body {
   font-size: 10px;
   margin-left: 30px;
   margin-top: 10px;
+  margin-bottom: 15px;
 }
 .order__city span,
 .order__area span {
@@ -381,7 +399,6 @@ body {
 
 .radio__label{
     display: block;
-    margin-bottom: 15px;
     color: #525252;
     cursor: pointer;
 }
@@ -399,9 +416,8 @@ body {
 .fake::before{
     content: "";
     position: absolute;
-    top: 50%;
-    left: 45%;
-    transform: translate(-45%,-45%);
+    top: 25%;
+    left: 23%;
     display: block;
     width: 7px;
     height: 7px;
@@ -879,7 +895,29 @@ body {
     right: 21px;
   }
   .fake::before {
-      top: 45%;
+      top: 23%;
+  }
+  .steps li:first-child span::after {
+    content: "";
+    display: block;
+    background-color: #d4101f;
+    width: 53px;
+    height: 3px;
+
+    position: absolute;
+    top: 12%;
+    margin-left: 43px;
+  }
+  .steps li:nth-child(2) span::after {
+    content: "";
+    display: block;
+    background-color: #d4101f;
+    width: 53px;
+    height: 3px;
+
+    position: absolute;
+    top: 12%;
+    margin-left: 74px;
   }
 
 }
