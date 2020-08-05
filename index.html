@@ -33,15 +33,15 @@
                         Архангельск
                     </div>
                 </div>
-                 <a href="tel:88007707288"><img src="img/phone.png" alt="icon" class="phone__icon">
+                 <a href="tel:88007707288"><img src="img/phone.png" alt="icon" class="phone__icon"></a>
                 <div class="phone">
                    
                     <div class="phone__text">
-                        <span class="phone__descr">
+                        <a href="#"><span class="phone__descr">
                             Перезвоните мне
                         </span>
-                      <span class="numbers">  8(800) <span class="green__numbers">770-72-88</span></span> 
-                    </a>
+                      <span class="numbers">  8(800) <span class="green__numbers">770-72-88</span></span> </a>
+                    
                 </div>
                 </div>
 
@@ -74,20 +74,18 @@
                     <li class="header__link"><a class="header__link" href="#">Акция</a> </li>
                     <li class="header__link"><a class="header__link" href="#">Доставка и оплата</a> </li>
                     <li class="header__link"><a class="header__link" href="#">Галерея</a> </li>
-                    <div class="social__media">
+                    <li><div class="social__media">
                 <a href="#" class="social__media-inst"></a>
                 
                 <a href="#" class="social__media-facebook"></a>
                 
                 <a href="#" class="social__media-vk"></a>
-                    </div>
+                    </div></li>
                 </ul>
             </nav>
             </div>
             
             </div>
-        </div>
-
         </div>
     </header>
 
@@ -95,7 +93,9 @@
     <main class="main">
         <div class="container">
             <section class="progress">
-                <div class="steps">
+                
+                <ul class="steps">
+                    
                     <li class="step"> <span class="step__number active">1</span> 
                         <p class="step__name">Корзина</p>
                     </li>
@@ -106,8 +106,7 @@
                     <li class="step"><span class="step__number">3</span>
                         <p class="step__name">Отправка</p>
                     </li>
-                    
-                </div>
+                    </ul>
 
                 <div class="step__message">
                     Внимание! Блюда японской кухни на данный момент доставляются в определённые районы города, пожалуйста, уточняйте у оператора!
@@ -115,7 +114,7 @@
             </section>
 
 <!-- ТОВАРЫ -->
-            <section class="cart__main">
+            <div class="cart__main">
                 <div class="cart__items">
                 <div class="cart__item">
 
@@ -129,7 +128,7 @@
                     
                     <div class="number__info">
                         <div class="count">
-                        <select name="count" id="">
+                        <select name="count" >
                             <option value="1">1</option>
                             <option value="2">2</option>
                             <option value="3">3</option>
@@ -157,7 +156,7 @@
                     </div>
                     <div class="number__info">
                     <div class="count">
-                    <select name="count" id="">
+                    <select name="count" >
                         <option value="1">1</option>
                         <option value="2">2</option>
                         <option value="3">3</option>
@@ -188,7 +187,7 @@
 
                     <div class="number__info">
                         <div class="count">
-                        <select name="count" id="">
+                        <select name="count">
                             <option value="1">1</option>
                             <option value="2">2</option>
                             <option value="3">3</option>
@@ -215,7 +214,7 @@
                 </h2>
 
                 
-        <form action="" class="cart__order-form">
+        <form action="#" class="cart__order-form">
 		
             
             <label class="radio__label">
@@ -237,7 +236,7 @@
             
             <p class="city__title">Ваш город</p>
 				  <div class="order__city">
-                        <select name="city" id="#">
+                        <select name="city" >
                             <option value="1">Воронеж</option>
 
                         </select>
@@ -245,7 +244,7 @@
 
             <p class="area__title">Ваш район</p>
                         <div class="order__area">
-                            <select name="area" id="#">
+                            <select name="area" >
                             <option value="1">Не выбрано</option>
                             </select>
                             </div>
@@ -268,9 +267,9 @@
 			<input type="submit" class="bt_link block-right" id="orderDeny" value="Оформить заказ">
 			
 		</div>
-	
-            </div>
         </form>
+            </div>
+        
             </section>
         </div>
     </main>
@@ -337,6 +336,7 @@
         <span class="footer__mobile-info">
                 © 2017 - 2019. Sanremo <a class="footer__info-link" href="#">Договор публичной оферты</a> 
             </span>
+        </div>
         </div>
     </footer>
     
