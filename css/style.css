@@ -401,7 +401,7 @@ body {
     position: absolute;
     top: 50%;
     left: 45%;
-    transform: translate(-50%,-50%);
+    transform: translate(-45%,-45%);
     display: block;
     width: 7px;
     height: 7px;
