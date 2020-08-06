@@ -1,345 +1,427 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700&display=swap" rel="stylesheet"> 
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
     <title>Pizza cart</title>
-</head>
-<body>
-
-<!-- ШАПКА -->
+  </head>
+  <body>
+    <!-- ШАПКА -->
     <header class="header">
-        <div class="container">
-            <p class="header__mobile-descr">Среднее время доставки <span class="header__mobile-descr-value">56 минут</span> </p>
+      <div class="container">
+        <p class="header__mobile-descr">
+          Среднее время доставки
+          <span class="header__mobile-descr-value">56 минут</span>
+        </p>
         <div class="header__inner">
-            <span class="header__mobile__menu">
+          <span class="header__mobile__menu"> </span>
 
-            </span>
+          <div class="logo">
+            <a href="index.html"
+              ><img src="img/logo.svg.png" alt="" class="logo__icon"
+            /></a>
+          </div>
 
-            <div class="logo">
-                <a href="index.html"><img src="img/logo.svg.png" alt="" class="logo__icon"></a>
+          <div class="header__info">
+            <img src="img/city.png" alt="icon" class="city__icon" />
+            <div class="city">
+              <div class="city__text">
+                <span class="city__descr">
+                  Ваш город:
+                </span>
+                Архангельск
+              </div>
+            </div>
+            <a href="tel:88007707288"
+              ><img src="img/phone.png" alt="icon" class="phone__icon"
+            /></a>
+            <div class="phone">
+              <div class="phone__text">
+                <a href="#"
+                  ><span class="phone__descr">
+                    Перезвоните мне
+                  </span>
+                  <span class="numbers">
+                    8(800) <span class="green__numbers">770-72-88</span></span
+                  >
+                </a>
+              </div>
             </div>
 
-            <div class="header__info">
-               <img src="img/city.png" alt="icon" class="city__icon">
-                <div class="city">
-                    <div class="city__text">
-                        <span class="city__descr">
-                            Ваш город:
-                        </span>
-                        Архангельск
-                    </div>
-                </div>
-                 <a href="tel:88007707288"><img src="img/phone.png" alt="icon" class="phone__icon"></a>
-                <div class="phone">
-                   
-                    <div class="phone__text">
-                        <a href="#"><span class="phone__descr">
-                            Перезвоните мне
-                        </span>
-                      <span class="numbers">  8(800) <span class="green__numbers">770-72-88</span></span> </a>
-                    
-                </div>
-                </div>
-
-                <div class="time">
-                    <div class="time__text">
-                        <span class="time__descr">
-                            Среднее время доставки <br>
-                        </span>
-                        56 минут
-                    </div>
-                </div>
-                <img src="img/user.png" alt="icon" class="cabinet__icon">
-                <div class="cabinet">
-                    Личный кабинет
-                </div>
-
-                <button class="button button__cart">
-                    <img src="img/cart.png" alt="#" class="cart__icon">
-                    <span class="button__cart-value">1280 Р</span>
-                </button>
+            <div class="time">
+              <div class="time__text">
+                <span class="time__descr"> Среднее время доставки <br /> </span>
+                56 минут
+              </div>
             </div>
+            <img src="img/user.png" alt="icon" class="cabinet__icon" />
+            <div class="cabinet">
+              Личный кабинет
+            </div>
+
+            <button class="button button__cart">
+              <img src="img/cart.png" alt="#" class="cart__icon" />
+              <span class="button__cart-value">1280 Р</span>
+            </button>
+          </div>
         </div>
 
-<!-- МЕНЮ ШАПКИ -->
+        <!-- МЕНЮ ШАПКИ -->
         <div class="header__menu">
-            <div class="header__inner">
+          <div class="header__inner">
             <nav class="header__nav">
-                <ul class="header__menu-list">
-                    <li class="header__link"><a class="header__link" href="#">Меню</a> </li>
-                    <li class="header__link"><a class="header__link" href="#">Акция</a> </li>
-                    <li class="header__link"><a class="header__link" href="#">Доставка и оплата</a> </li>
-                    <li class="header__link"><a class="header__link" href="#">Галерея</a> </li>
-                    <li><div class="social__media">
-                <a href="#" class="social__media-inst"></a>
-                
-                <a href="#" class="social__media-facebook"></a>
-                
-                <a href="#" class="social__media-vk"></a>
-                    </div></li>
-                </ul>
+              <ul class="header__menu-list">
+                <li class="header__link">
+                  <a class="header__link" href="#">Меню</a>
+                </li>
+                <li class="header__link">
+                  <a class="header__link" href="#">Акция</a>
+                </li>
+                <li class="header__link">
+                  <a class="header__link" href="#">Доставка и оплата</a>
+                </li>
+                <li class="header__link">
+                  <a class="header__link" href="#">Галерея</a>
+                </li>
+                <li>
+                  <div class="social__media">
+                    <a href="#" class="social__media-inst"></a>
+
+                    <a href="#" class="social__media-facebook"></a>
+
+                    <a href="#" class="social__media-vk"></a>
+                  </div>
+                </li>
+              </ul>
             </nav>
-            </div>
-            
-            </div>
+          </div>
         </div>
+      </div>
     </header>
 
-<!-- КОРЗИНА -->
+    <!-- КОРЗИНА -->
     <main class="main">
-        <div class="container">
-            <section class="progress">
-                
-                <ul class="steps">
-                    
-                    <li class="step"> <span class="step__number active">1</span> 
-                        <p class="step__name">Корзина</p>
-                    </li>
-                    
-                    <li class="step"><span class="step__number">2</span>
-                        <p class="step__name">Оформление заказа</p>
-                    </li>
-                    <li class="step"><span class="step__number">3</span>
-                        <p class="step__name">Отправка</p>
-                    </li>
-                    </ul>
+      <div class="container">
+        <section class="progress">
+          <ul class="steps">
+            <li class="step">
+              <span class="step__number active">1</span>
+              <p class="step__name">Корзина</p>
+            </li>
 
-                <div class="step__message">
-                    Внимание! Блюда японской кухни на данный момент доставляются в определённые районы города, пожалуйста, уточняйте у оператора!
+            <li class="step">
+              <span class="step__number">2</span>
+              <p class="step__name">Оформление заказа</p>
+            </li>
+            <li class="step">
+              <span class="step__number">3</span>
+              <p class="step__name">Отправка</p>
+            </li>
+          </ul>
+
+          <div class="step__message">
+            Внимание! Блюда японской кухни на данный момент доставляются в
+            определённые районы города, пожалуйста, уточняйте у оператора!
+          </div>
+        </section>
+
+        <!-- ТОВАРЫ -->
+        <section class="cart__main">
+          <div class="cart__items">
+            <div class="cart__item">
+              <img
+                src="img/item-1.png"
+                alt="promo-img"
+                class="cart__item-img"
+              />
+
+              <div class="cart__text">
+                <h3 class="cart__item-title">
+                  «Императорская» 42 см (8 порций)
+                </h3>
+                <p class="cart__item__descr">
+                  Состав: ветчина, помидоры, соус белый, сыр
+                </p>
+              </div>
+
+              <div class="number__info">
+                <div class="count">
+                  <select name="count">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                  </select>
                 </div>
-            </section>
+                <span class="price">590Р</span>
 
-<!-- ТОВАРЫ -->
-            <div class="cart__main">
-                <div class="cart__items">
-                <div class="cart__item">
-
-                    <img src="img/item-1.png" alt="promo-img" class="cart__item-img">
-
-                    <div class="cart__text">
-                    <h3 class="cart__item-title">«Императорская» 42 см (8 порций)</h3>
-                    <p class="cart__item__descr">Состав: ветчина, помидоры, соус белый, сыр</p>
-                    </div>
-                    
-                    
-                    <div class="number__info">
-                        <div class="count">
-                        <select name="count" >
-                            <option value="1">1</option>
-                            <option value="2">2</option>
-                            <option value="3">3</option>
-                            <option value="4">4</option>
-                            <option value="5">5</option>
-                            <option value="6">6</option>
-                            <option value="7">7</option>
-                            <option value="8">8</option>
-                            <option value="9">9</option>
-                        </select>
-                        </div>
-                        <span class="price">590Р</span>
-    
-                        <img src="img/cancel.png" alt="cancel" class="cancel">
-                    </div>
-                </div>
-
-                <div class="cart__item">
-
-                    <img src="img/item-2.png" alt="promo-img" class="cart__item-img">
-
-                    <div class="cart__text">
-                    <h3 class="cart__item-title">Ролл Калифорния</h3>
-                    <p class="cart__item__descr">Состав: Нори, Рис, Массаго, Авокадо, Снежный краб, Огурцы, Майонез</p>
-                    </div>
-                    <div class="number__info">
-                    <div class="count">
-                    <select name="count" >
-                        <option value="1">1</option>
-                        <option value="2">2</option>
-                        <option value="3">3</option>
-                        <option value="4">4</option>
-                        <option value="5">5</option>
-                        <option value="6">6</option>
-                        <option value="7">7</option>
-                        <option value="8">8</option>
-                        <option value="9">9</option>
-                    </select>
-                    </div>
-                    <span class="price">370Р</span>
-
-                    <img src="img/cancel.png" alt="cancel" class="cancel">
-                </div>
-                </div>
-
-                <div class="cart__item">
-
-                    <img src="img/item-3.png" alt="promo-img" class="cart__item-img">
-
-                    <div class="cart__text">
-                    <h3 class="cart__item-title">Салат Цезарь</h3>
-                    <p class="cart__item__descr">Состав: филе куриное, пекинская капуста, помидоры, сухарики</p>
-                    </div>
-                    
-                    
-
-                    <div class="number__info">
-                        <div class="count">
-                        <select name="count">
-                            <option value="1">1</option>
-                            <option value="2">2</option>
-                            <option value="3">3</option>
-                            <option value="4">4</option>
-                            <option value="5">5</option>
-                            <option value="6">6</option>
-                            <option value="7">7</option>
-                            <option value="8">8</option>
-                            <option value="9">9</option>
-                        </select>
-                        </div>
-                        <span class="price">320Р</span>
-    
-                        <img src="img/cancel.png" alt="cancel" class="cancel">
-                    </div>
-                </div>
-            
+                <img src="img/cancel.png" alt="cancel" class="cancel" />
+              </div>
             </div>
 
-<!-- СПОСОБ ДОСТАВКИ -->
-            <div class="cart__order">
-                <h2 class="cart__order-title">
-                    Способ доставки
-                </h2>
+            <div class="cart__item">
+              <img
+                src="img/item-2.png"
+                alt="promo-img"
+                class="cart__item-img"
+              />
 
-                
-        <form action="#" class="cart__order-form">
-		
-            
-            <label class="radio__label">
-                <input type="radio" class="radio__input" id="delivery1" name="1">
+              <div class="cart__text">
+                <h3 class="cart__item-title">Ролл Калифорния</h3>
+                <p class="cart__item__descr">
+                  Состав: Нори, Рис, Массаго, Авокадо, Снежный краб, Огурцы,
+                  Майонез
+                </p>
+              </div>
+              <div class="number__info">
+                <div class="count">
+                  <select name="count">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                  </select>
+                </div>
+                <span class="price">370Р</span>
+
+                <img src="img/cancel.png" alt="cancel" class="cancel" />
+              </div>
+            </div>
+
+            <div class="cart__item">
+              <img
+                src="img/item-3.png"
+                alt="promo-img"
+                class="cart__item-img"
+              />
+
+              <div class="cart__text">
+                <h3 class="cart__item-title">Салат Цезарь</h3>
+                <p class="cart__item__descr">
+                  Состав: филе куриное, пекинская капуста, помидоры, сухарики
+                </p>
+              </div>
+
+              <div class="number__info">
+                <div class="count">
+                  <select name="count">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                  </select>
+                </div>
+                <span class="price">320Р</span>
+
+                <img src="img/cancel.png" alt="cancel" class="cancel" />
+              </div>
+            </div>
+          </div>
+
+          <!-- СПОСОБ ДОСТАВКИ -->
+          <div class="cart__order">
+            <h2 class="cart__order-title">
+              Способ доставки
+            </h2>
+
+            <form action="#" class="cart__order-form">
+              <label class="radio__label">
+                <input
+                  type="radio"
+                  class="radio__input"
+                  id="delivery1"
+                  name="1"
+                />
                 <span class="fake"></span>
-                <span class="radio__text">Доставка курьером</span>
-            </label><br>
-			
-			  	
-			<label class="radio__label" >
-                <input type="radio" class="radio__input" id="delivery2"  name="1">
+                <span class="radio__text">Доставка курьером</span> </label
+              ><br />
+
+              <label class="radio__label">
+                <input
+                  type="radio"
+                  class="radio__input"
+                  id="delivery2"
+                  name="1"
+                />
                 <span class="fake"></span>
                 <span class="radio__text">Самовывоз</span>
                 <span class="radio__input-descr">
-                    ( Скидка 10% пересчитывается при обратном 
-                    звонке оператора! )
+                  ( Скидка 10% пересчитывается при обратном звонке оператора! )
                 </span>
-            </label>
-            
-            <p class="city__title">Ваш город</p>
-				  <div class="order__city">
-                        <select name="city" >
-                            <option value="1">Воронеж</option>
+              </label>
 
-                        </select>
-                        </div>
+              <p class="city__title">Ваш город</p>
+              <div class="order__city">
+                <select name="city">
+                  <option value="1">Воронеж</option>
+                </select>
+              </div>
 
-            <p class="area__title">Ваш район</p>
-                        <div class="order__area">
-                            <select name="area" >
-                            <option value="1">Не выбрано</option>
-                            </select>
-                            </div>
+              <p class="area__title">Ваш район</p>
+              <div class="order__area">
+                <select name="area">
+                  <option value="1">Не выбрано</option>
+                </select>
+              </div>
 
-                            <div class="order__bonus">
-                            <h4 class="order__promo">
-                                Промокод:
-                            </h4>
-                             <div class="input">
-                            <input type="text" class="order__promo-value">
-                        </div>
-                            <p class="bonus__plus">Балы к зачислению: <span class="bonus__plus-value">0Б</span></p>    
-                            <p class="bonus__minus">Балы к списанию: <span class="bonus__minus-value">0Б</span></p>
-                            </div>
-                            
-                            <h4 class="total">Итого: <span class="total-value">1280Р</span></h4>
-                        
-		<div class="item-cart-buttons">
-           
-			<input type="submit" class="bt_link block-right" id="orderDeny" value="Оформить заказ">
-			
-		</div>
-        </form>
-            </div>
-        
-            </section>
-        </div>
+              <div class="order__bonus">
+                <h4 class="order__promo">
+                  Промокод:
+                </h4>
+                <div class="input">
+                  <input type="text" class="order__promo-value" />
+                </div>
+                <p class="bonus__plus">
+                  Балы к зачислению: <span class="bonus__plus-value">0Б</span>
+                </p>
+                <p class="bonus__minus">
+                  Балы к списанию: <span class="bonus__minus-value">0Б</span>
+                </p>
+              </div>
+
+              <h4 class="total">
+                Итого: <span class="total-value">1280Р</span>
+              </h4>
+
+              <div class="item-cart-buttons">
+                <input
+                  type="submit"
+                  class="bt_link block-right"
+                  id="orderDeny"
+                  value="Оформить заказ"
+                />
+              </div>
+            </form>
+          </div>
+        </section>
+      </div>
     </main>
 
-<!-- ПОДВАЛ -->
+    <!-- ПОДВАЛ -->
     <footer class="footer">
-        <div class="container">
-            <div class="footer__inner">
-            <div class="footer__rest-info">
-                <div class="footer__logo">
-                    <img src="img/footer_logo.png" alt="logo" class="footer__logo-img">
-                </div>
-                <div class="footer__download">
-                    <span class="footer__download-descr">
-                        Скачивай мобильное приложение:
-                    </span><br>
-                    <a href="#"><img src="img/google__play.png" alt="google" class="footer__download-link"></a>
-                    <a href="#"><img src="img/apple_store.png" alt="apple" class="footer__download-link"></a>
-                </div>
+      <div class="container">
+        <div class="footer__inner">
+          <div class="footer__rest-info">
+            <div class="footer__logo">
+              <img
+                src="img/footer_logo.png"
+                alt="logo"
+                class="footer__logo-img"
+              />
             </div>
+            <div class="footer__download">
+              <span class="footer__download-descr">
+                Скачивай мобильное приложение: </span
+              ><br />
+              <a href="#"
+                ><img
+                  src="img/google__play.png"
+                  alt="google"
+                  class="footer__download-link"
+              /></a>
+              <a href="#"
+                ><img
+                  src="img/apple_store.png"
+                  alt="apple"
+                  class="footer__download-link"
+              /></a>
+            </div>
+          </div>
 
-            <div class="footer__main">
-                <nav class="footer__nav">
-                    <ul class="footer__menu-list">
-                        <li class="footer__link"><a class="footer__link" href="#">Меню</a> </li>
-                        <li class="footer__link"><a class="footer__link" href="#">Доставка</a> </li>
-                        <li class="footer__link"><a class="footer__link" href="#">Отзывы</a> </li>
-                        <li class="footer__link"><a class="footer__link" href="#">Контакты</a> </li>
-                        <li class="footer__link"><a class="footer__link" href="#">Вакансии</a> </li>
-                        <li class="footer__link"><a class="footer__link" href="#">Статьи</a> </li>
-                        <li class="footer__link"><a class="footer__link" href="#">О нас</a> </li>
-                        <li class="footer__link"><a class="footer__link" href="#">Акции</a> </li>
-                    </ul>                        
-                </nav>
+          <div class="footer__main">
+            <nav class="footer__nav">
+              <ul class="footer__menu-list">
+                <li class="footer__link">
+                  <a class="footer__link" href="#">Меню</a>
+                </li>
+                <li class="footer__link">
+                  <a class="footer__link" href="#">Доставка</a>
+                </li>
+                <li class="footer__link">
+                  <a class="footer__link" href="#">Отзывы</a>
+                </li>
+                <li class="footer__link">
+                  <a class="footer__link" href="#">Контакты</a>
+                </li>
+                <li class="footer__link">
+                  <a class="footer__link" href="#">Вакансии</a>
+                </li>
+                <li class="footer__link">
+                  <a class="footer__link" href="#">Статьи</a>
+                </li>
+                <li class="footer__link">
+                  <a class="footer__link" href="#">О нас</a>
+                </li>
+                <li class="footer__link">
+                  <a class="footer__link" href="#">Акции</a>
+                </li>
+              </ul>
+            </nav>
             <div class="footer__media">
-                    <a href='#' class="footer__media-inst">
-                    </a>
-                    <a href='#' class="footer__media-facebook">
-                    </a>
-                    <a href='#' class="footer__media-vk">
-                    </a>
+              <a href="#" class="footer__media-inst"> </a>
+              <a href="#" class="footer__media-facebook"> </a>
+              <a href="#" class="footer__media-vk"> </a>
             </div>
 
             <div class="footer__download-mobile">
-                <a href="#"><img src="img/google__play.png" alt="google" class="footer__download-link"></a><br>
-                <a href="#"><img src="img/apple_store.png" alt="apple" class="footer__download-link"></a>
+              <a href="#"
+                ><img
+                  src="img/google__play.png"
+                  alt="google"
+                  class="footer__download-link" /></a
+              ><br />
+              <a href="#"
+                ><img
+                  src="img/apple_store.png"
+                  alt="apple"
+                  class="footer__download-link"
+              /></a>
             </div>
 
             <div class="footer__payment">
-                <span class="footer__payment-descr">
-                    Мы принимаем оплате:
-                </span>
-                <img src="img/payment.png" alt="pay" class="payment__icon">
+              <span class="footer__payment-descr">
+                Мы принимаем оплате:
+              </span>
+              <img src="img/payment.png" alt="pay" class="payment__icon" />
             </div>
             <div class="footer__site">
-                <span class="footer__site-info">
-                    © 2017 - 2019. Sanremo <a class="footer__info-link" href="#">Договор публичной оферты</a> 
-                </span>
+              <span class="footer__site-info">
+                © 2017 - 2019. Sanremo
+                <a class="footer__info-link" href="#"
+                  >Договор публичной оферты</a
+                >
+              </span>
             </div>
-            
+
             <a href=""><span class="arrow__up"></span></a>
-            
+          </div>
+          <span class="footer__mobile-info">
+            © 2017 - 2019. Sanremo
+            <a class="footer__info-link" href="#">Договор публичной оферты</a>
+          </span>
         </div>
-        <span class="footer__mobile-info">
-                © 2017 - 2019. Sanremo <a class="footer__info-link" href="#">Договор публичной оферты</a> 
-            </span>
-        </div>
-        </div>
+      </div>
     </footer>
-    
-    
-</body>
+  </body>
 </html>
