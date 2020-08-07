@@ -625,11 +625,10 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   position: absolute;
-  top: 35px;
-  right: 375px;
+  top: 16%;
+  right: 20%;
   border: 1px solid #9b9b9b;
   border-radius: 50%;
-  display: none;
 }
 .footer__info-link {
   color: #616161;
@@ -643,6 +642,12 @@ body {
 .footer__download-mobile,
 .footer__mobile-info {
   display: none;
+}
+
+@media (max-width: 1380px){
+  .arrow__up{
+    display:none;
+  }
 }
 
 /* Разрешение 320 */
@@ -753,6 +758,8 @@ body {
   .count select {
     padding: 7px 40px 9px 10px;
     margin-left: -22px;
+    -webkit-appearance: none;
+    appearance: none;
   }
   .cancel {
     margin-left: 95px;
